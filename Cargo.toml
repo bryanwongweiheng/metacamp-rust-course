@@ -1,0 +1,24 @@
+[package]
+name = "rust-cousre"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "exercise_2"
+path = "src/exercise_2/main.rs"
+
+[[bin]]
+name = "home_assignment_1"
+path = "src/home_assignment_1/main.rs"
+
+[[bin]]
+name = "home_assignment_2"
+path = "src/home_assignment_2/main.rs"
+
+[[bin]]
+name = "home_assignment_3"
+path = "src/home_assignment_3/main.rs"
